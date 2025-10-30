@@ -1,42 +1,50 @@
 import { useState } from "react";
 import { motion } from "motion/react";
+import { ThemeToggle } from '../components/ThemeToggle';
+
 function Navigation() {
   return (
-    <ul className="nav-ul">
-      <li className="nav-li">
-        <a className="nav-link" href="#home">
-          Home
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#about">
-          About
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
-        </a>
-      </li>
-      <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact
-        </a>
-      </li>
-    </ul>
+    <div>
+      <ul className="nav-ul">
+        
+
+        <li className="nav-li">
+          <a className="nav-link" href="#home">
+            Home
+          </a>
+        </li>
+        <li className="nav-li">
+          <a className="nav-link" href="#about">
+            About
+          </a>
+        </li>
+        <li className="nav-li">
+          <a className="nav-link" href="#work">
+            Work
+          </a>
+        </li>
+        <li className="nav-li">
+          <a className="nav-link" href="#contact">
+            Contact
+          </a>
+        </li>
+
+        <ThemeToggle />
+      </ul>
+    </div>
   );
 }
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
+    <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40 p-2 md:p-4">
       <div className="mx-auto c-space max-w-7xl">
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
             href="/"
-            className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
+            className="md:text-3xl text-lg font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Ali
+            Zesungdev.
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

@@ -241,41 +241,47 @@ export const mySocials = [
   },
 ];
 
+
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Frontend Developer",
+    job: "Freelance Projects",
+    date: "2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Built responsive and high-performance web apps using React, Tailwind CSS, and modern JavaScript.",
+      "Integrated authentication and databases with Supabase and Auth0.",
+      "Worked closely with clients to deliver tailored digital solutions.",
+      "Optimized applications for speed, SEO, and cross-browser compatibility.",
+      "Used Git and GitHub for version control and efficient project management.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
-    contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
+    title: "Web Developer",
     job: "Self-Employed",
-    date: "2025-Present",
+    date: "2024",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Advanced from core web development to dynamic React-based applications.",
+      "Developed full-stack projects connecting frontends with APIs and backend services.",
+      "Created interactive and responsive interfaces using JavaScript and CSS frameworks.",
+      "Ensured accessibility and performance across multiple devices.",
+      "Expanded technical expertise through hands-on projects and continuous learning.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    job: "Independent Projects",
+    date: "2023",
+    contents: [
+      "Started building web projects using HTML, CSS, and JavaScript.",
+      "Explored React and Vite to understand modern development environments.",
+      "Designed and styled responsive layouts with Tailwind CSS.",
+      "Integrated Supabase for real-time features and authentication.",
+      "Built foundational coding skills through consistent self-learning and experimentation.",
     ],
   },
 ];
+
+
 export const reviews = [
   {
     name: "Jack",
@@ -301,28 +307,28 @@ export const reviews = [
     body: "This is hands down the best thing I've experienced. Highly recommend!",
     img: "https://robohash.org/alice",
   },
-  {
-    name: "Bob",
-    username: "@bob",
-    body: "Incredible work! The attention to detail is phenomenal.",
-    img: "https://robohash.org/bob",
-  },
-  {
-    name: "Charlie",
-    username: "@charlie",
-    body: "This exceeded all my expectations. Absolutely stunning!",
-    img: "https://robohash.org/charlie",
-  },
-  {
-    name: "Dave",
-    username: "@dave",
-    body: "Simply breathtaking. The best decision I've made in a while.",
-    img: "https://robohash.org/dave",
-  },
-  {
-    name: "Eve",
-    username: "@eve",
-    body: "So glad I found this. It has changed the game for me.",
-    img: "https://robohash.org/eve",
-  },
+  // {
+  //   name: "Bob",
+  //   username: "@bob",
+  //   body: "Incredible work! The attention to detail is phenomenal.",
+  //   img: "https://robohash.org/bob",
+  // },
+  // {
+  //   name: "Charlie",
+  //   username: "@charlie",
+  //   body: "This exceeded all my expectations. Absolutely stunning!",
+  //   img: "https://robohash.org/charlie",
+  // },
+  // {
+  //   name: "Dave",
+  //   username: "@dave",
+  //   body: "Simply breathtaking. The best decision I've made in a while.",
+  //   img: "https://robohash.org/dave",
+  // },
+  // {
+  //   name: "Eve",
+  //   username: "@eve",
+  //   body: "So glad I found this. It has changed the game for me.",
+  //   img: "https://robohash.org/eve",
+  // },
 ];
