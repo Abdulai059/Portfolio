@@ -16,55 +16,19 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
+        id: 2,
+        name: "Supabase",
+        path: "/assets/logos/supabase.svg",
+      },
+
+      {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
@@ -73,35 +37,37 @@ export const myProjects = [
       },
     ],
   },
+
+
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "TurtleCodes",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A modern SaaS platform that empowers developers and businesses to build and automate intelligent AI workflows with ease.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Architected a modular SaaS platform designed for seamless AI workflow automation and scalability.",
+      "Integrated multiple APIs and AI models to optimize data processing, automation, and decision-making.",
+      "Developed a secure and scalable backend using Node.js and Express with robust RESTful endpoints.",
+      "Implemented a sleek, modern React frontend with TailwindCSS for an intuitive, responsive user experience.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    href: "https://turtlcodes.com", // or GitHub link if not yet live
+    logo: "/assets/logos/turtlecodes.svg",
+    image: "/assets/projects/turtlecodes.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Supabase",
+        path: "/assets/logos/supabase.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "AI/ML",
+        path: "/assets/logos/voiceflow.png",
       },
       {
         id: 4,
@@ -110,43 +76,69 @@ export const myProjects = [
       },
     ],
   },
+
+{
+  id: 2,
+  title: "LtechHomes Website",
+  description:
+    "A responsive real-estate website built with HTML, CSS, JavaScript and PHP — featuring property listings, search & filters, contact forms and a simple admin panel for managing listings.",
+  subDescription: [
+    "Built a dynamic PHP + MySQL backend to manage property listings, agents, and inquiries.",
+    "Implemented responsive, mobile-first UI with CSS and lightweight JavaScript for filtering, galleries and pagination.",
+    "Created a secure contact & lead capture flow with server-side validation and email notifications.",
+    "Delivered an admin dashboard for listing CRUD, image uploads, and content management.",
+  ],
+  href: "https://ltechhomes.example.com", // update to live URL or GitHub repo
+  logo: "/assets/logos/ltechhomes.svg",
+  image: "/assets/projects/LtechHomes.png",
+  tags: [
+    { id: 1, name: "HTML", path: "/assets/logos/html5.svg" },
+    { id: 2, name: "CSS", path: "/assets/logos/css3.svg" },
+    { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+    { id: 4, name: "PHP", path: "/assets/logos/php.svg" },
+    { id: 5, name: "MySQL", path: "/assets/logos/mysql.png" }
+  ],
+},
+
+
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Bop-Attack Game",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
+      "A fun and interactive Whac-A-Mole-style browser game built using HTML, CSS, and JavaScript.",
     subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
+      "Developed engaging game mechanics with JavaScript and DOM manipulation.",
+      "Implemented score tracking, timer, and random mole pop-up logic.",
+      "Designed responsive visuals and animations for smooth gameplay on all devices.",
+      "Optimized performance for fast, lag-free user interactions.",
     ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    href: "https://bopattack.netlify.app",
+    logo: "/assets/logos/js.svg",
+    image: "/assets/projects/Bop-attack.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "GitHub",
+        path: "/assets/logos/github.svg",
       },
     ],
   },
+
   {
     id: 5,
     title: "WordPress Custom Theme",
@@ -241,7 +233,6 @@ export const mySocials = [
   },
 ];
 
-
 export const experiences = [
   {
     title: "Frontend Developer",
@@ -281,38 +272,39 @@ export const experiences = [
   },
 ];
 
-
 export const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://robohash.org/jack",
+    name: "Kojo Mensah",
+    username: "@kojomensah",
+    body: "The animations and responsiveness are top-notch. You can tell he has both technical skill and design sense.",
+    img: "https://robohash.org/kojomensah",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://robohash.org/jill",
+    name: "Ltechhmes",
+    username: "@ltechhmes",
+    body: "Working with Abdulai was an incredible experience. He built our company website from the ground up fast, modern, and user-friendly. The final product exceeded our expectations!",
+    img: "https://robohash.org/ltechhmes",
+  },
+
+  {
+    name: "Michael Owusu",
+    username: "@mowusu",
+    body: "Abdulai’s work speaks for itself sleek design, fast performance, and attention to every detail. A truly impressive portfolio!",
+    img: "https://robohash.org/mowusu",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://robohash.org/john",
+    name: "Abigail Darko",
+    username: "@abigaildarko",
+    body: "I came across the Ltechhmes website and was amazed by how seamless the experience was. Clear proof of Abdulai’s excellent work.",
+    img: "https://robohash.org/abigaildarko",
   },
   {
-    name: "Alice",
-    username: "@alice",
-    body: "This is hands down the best thing I've experienced. Highly recommend!",
-    img: "https://robohash.org/alice",
+    name: "Kojo Mensah",
+    username: "@kojomensah",
+    body: "The animations and responsiveness are top-notch. You can tell he has both technical skill and design sense.",
+    img: "https://robohash.org/kojomensah",
   },
-  // {
-  //   name: "Bob",
-  //   username: "@bob",
-  //   body: "Incredible work! The attention to detail is phenomenal.",
-  //   img: "https://robohash.org/bob",
-  // },
+
   // {
   //   name: "Charlie",
   //   username: "@charlie",
